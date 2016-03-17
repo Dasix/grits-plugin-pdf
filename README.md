@@ -1,4 +1,4 @@
-[![NPM](https://nodei.co/npm/grits.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/grits-plugin-pdf/)
+[![NPM](https://nodei.co/npm/grits-plugin-pdf.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/grits-plugin-pdf/)
 
 [![Build Status](https://travis-ci.org/Dasix/grits-plugin-pdf.svg?branch=master)](https://travis-ci.org/Dasix/grits-plugin-pdf/)
 
@@ -14,12 +14,12 @@ PhantomJS has a silent dependency on `libfontconfig.so.1` (see https://github.co
 and you'll get strange failures until you install that dep.  I've not yet discovered
 the fix for every platform, but here are the ones I've had to deal with:
 
-#### CentOS
+##### CentOS
 ```
 yum install urw-fonts
 ```
 
-#### Ubuntu
+##### Ubuntu
 ```
 sudo apt-get install libfontconfig
 ```
@@ -39,12 +39,12 @@ npm install --save grits grits-plugin-pdf
 
 ### Loading the Plugin
 
-#### CLI
+##### CLI
 ```
 grits -v --plugin grits-plugin-pdf .
 ```
 
-#### Config File
+##### Config File
 ```json
 {
 	"plugins": {
@@ -53,7 +53,7 @@ grits -v --plugin grits-plugin-pdf .
 }
 ```
 
-#### Programmatic via Constructor
+##### Programmatic via Constructor
 ```
 require("grits");
 var grits = new Dasix.grits.Renderer({
@@ -63,7 +63,7 @@ var grits = new Dasix.grits.Renderer({
 });
 ```
 
-#### Programmatic via use()
+##### Programmatic via use()
 ```
 require("grits");
 var grits = new Dasix.grits.Renderer();
