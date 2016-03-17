@@ -1,6 +1,6 @@
 {
 	"name"            : "grits-plugin-pdf",
-	"version"         : "0.3.3",
+	"version"         : "0.3.4",
 	"description"     : "A Grits plugin for rendering PDFs",
 	"license"         : "MIT",
 	"repository"      : {
