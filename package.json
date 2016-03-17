@@ -1,6 +1,6 @@
 {
 	"name"            : "grits-plugin-pdf",
-	"version"         : "0.3.2",
+	"version"         : "0.3.3",
 	"description"     : "A Grits plugin for rendering PDFs",
 	"license"         : "MIT",
 	"repository"      : {
@@ -17,7 +17,7 @@
 	},
 	"main"            : "lib/plugin.js",
 	"scripts"         : {
-		"test"         : "./node_modules/mocha/bin/mocha",
+		"test"         : "scripts/test.sh",
 		"grits"        : "scripts/grits.sh",
 		"grits-config" : "scripts/grits-config.sh",
 		"live"         : "scripts/live.sh",
