@@ -1,0 +1,31 @@
+{
+	"_from"        : {
+		"page" : "https://google-webfonts-helper.herokuapp.com/fonts/satisfy?subsets=latin",
+		"api"  : "https://google-webfonts-helper.herokuapp.com/api/fonts/satisfy?subsets=latin"
+	},
+	"id"           : "satisfy",
+	"family"       : "Satisfy",
+	"variants"     : [
+		{
+			"id"         : "regular",
+			"ttf"        : "https://fonts.gstatic.com/s/satisfy/v6/kteN-TiU7KwgPz3aaBeTSQ.ttf",
+			"fontFamily" : "'Satisfy'",
+			"fontStyle"  : "normal",
+			"fontWeight" : "400",
+			"local"      : [ "Satisfy" ],
+			"svg"        : "https://fonts.gstatic.com/l/font?kit=wE3yFOROaHvW9rif2x3Gdw&skey=b02738efc6e9caf3#Satisfy",
+			"woff2"      : "https://fonts.gstatic.com/s/satisfy/v6/2OzALGYfHwQjkPYWELy-cw.woff2",
+			"eot"        : "https://fonts.gstatic.com/s/satisfy/v6/swgYNTW5Q6X61bBH6SDBsg.eot",
+			"woff"       : "https://fonts.gstatic.com/s/satisfy/v6/ch7X2unYkww0EzsjlC3m8w.woff"
+		}
+	],
+	"subsets"      : [ "latin" ],
+	"category"     : "handwriting",
+	"version"      : "v6",
+	"lastModified" : "2016-02-23",
+	"popularity"   : 110,
+	"defSubset"    : "latin",
+	"defVariant"   : "regular",
+	"subsetMap"    : { "latin" : true },
+	"storeID"      : "latin"
+}

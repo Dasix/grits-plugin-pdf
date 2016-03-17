@@ -18,6 +18,8 @@
 	"main"            : "lib/plugin.js",
 	"scripts"         : {
 		"test"         : "./node_modules/mocha/bin/mocha",
+		"grits"        : "scripts/grits.sh",
+		"grits-config" : "scripts/grits-config.sh",
 		"live"         : "scripts/live.sh",
 		"update-grits" : "scripts/update-grits.sh"
 	},
@@ -35,8 +37,9 @@
 		"mocha"      : "2.3.4"
 	},
 	"dependencies"    : {
-		"bluebird" : "3.1.1",
-		"lodash"   : "4.0.0",
-		"tipe"     : "0.1.12"
+		"bluebird"           : "3.1.1",
+		"lodash"             : "4.0.0",
+		"phantomjs-prebuilt" : "^2.1.5",
+		"tipe"               : "0.1.12"
 	}
 }

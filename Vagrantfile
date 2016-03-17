@@ -101,8 +101,8 @@ Vagrant.configure("2") do |config|
 	#    ports at your disposal and perhaps won't have to reload your
 	#    Vagrant VM just to remap ports.
 
-		config.vm.network :forwarded_port, guest: 3555, host: 3555
-		config.vm.network :forwarded_port, guest: 3556, host: 3556
+		config.vm.network :forwarded_port, guest: 3955, host: 3955
+		config.vm.network :forwarded_port, guest: 3956, host: 3956
 
 
 
