@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>grits-plugin-pdf</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="/css/source-sans/main.css">
+
+</head>
+<body>
+
+	<div id="pageHeader" style="display: none; height: 1000px; background-image: url(images/tmp-logo.png);">
+		I'm a header for page :page: of :pages:
+	</div>
+
+	<img src="images/missing.png">
+
+	<div id="main-body">
+
+		{+bodyContent /}
+
+	</div>
+
+
+	<div id="pageFooter" style="display: none;">
+		<div class="inner">I'm a <strong>footer</strong> for page :page: of :pages:.</div>
+	</div>
+
+
+</body>
+</html>

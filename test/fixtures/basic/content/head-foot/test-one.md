@@ -1,6 +1,6 @@
 ---
 layout: source-sans
-pdf: true
+pdfX: true
 ---
 
 # Heading One
