@@ -13,11 +13,37 @@
 </head>
 <body>
 
-	<div id="pageHeader" style="display: none; height: 1000px; background-image: url(images/tmp-logo.png);">
+	<!--
+	<div id="pageHeader" style="display: none; height: 1000px; background-image: url(/images/tmp-logoA.png);">
+		&nbsp;
+	</div>
+	-->
+
+	<!--img src="{root}/images/tmp-logoA.png" width="30" height="30" -->
+
+	<!--
+	<div>
+		<img src="file:///project/test/fixtures/basic/output/images/tmp-logoA.png" width="30" height="30">
+	</div>
+	-->
+
+	<!--
+	<div id="pageHeader" style="display: none; height: 1000px; background-image: url(/images/tmp-logoA.png);">
+		<img src="http://ph.local/images/tmp-logoC.png" width="30" height="30">
+	</div>
+	-->
+
+
+
+	<div id="pageHeader" style="display: none; height: 1000px; background-image: url(/images/tmp-logoA.png);">
+		<img src="/images/tmp-logoB.png" width="30" height="30">
+		<img src="images/tmp-logoC.png" width="30" height="30">
+		<img src="file:///project/test/fixtures/basic/output/images/tmp-logoD.png" width="30" height="30">
 		I'm a header for page :page: of :pages:
 	</div>
 
-	<img src="images/missing.png">
+
+	<!-- img src="images/missing.png" -->
 
 	<div id="main-body">
 
@@ -26,7 +52,7 @@
 	</div>
 
 
-	<div id="pageFooter" style="display: none;">
+	<div id="pageFooterX" style="display: none;">
 		<div class="inner">I'm a <strong>footer</strong> for page :page: of :pages:.</div>
 	</div>
 
